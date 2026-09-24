@@ -1,0 +1,13 @@
+test_type,protocol,size,chunk_size,latency_ms,throughput_kbps,retransmissions,checksum_match
+file,TCP,100KB,4096,,77614.80,,Yes
+file,TCP,1MB,4096,,138547.33,,Yes
+file,TCP,5MB,4096,,138817.80,,Yes
+file,UDP,100KB,4096,,66470.74,0,Yes
+file,UDP,1MB,4096,,85097.73,0,Yes
+file,UDP,5MB,4096,,72956.56,0,Yes
+chat,TCP,32B,,1.2,,,
+chat,TCP,256B,,1.6,,,
+chat,TCP,1024B,,2.4,,,
+chat,UDP,32B,,1.5,,0,
+chat,UDP,256B,,2.0,,0,
+chat,UDP,1024B,,3.1,,0,
